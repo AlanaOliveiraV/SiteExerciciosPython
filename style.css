@@ -1,0 +1,34 @@
+ body {
+            font-family: Arial, sans-serif;
+			background-color: #000;
+			color:#FFF;
+        }
+        .exercise {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #454A4D;
+        }
+        .solution {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #000;
+        }
+        .btn-show-solution {
+            background-color: #242D33;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+		div.exercise h2 {
+			color:#91CDF2;
+		}
+		a{
+			color:#FFF;
+		}
+		a:active {
+			color: #FFF;
+		}
