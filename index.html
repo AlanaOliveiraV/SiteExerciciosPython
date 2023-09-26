@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./style.css" rel="stylesheet">
+	 <script src="./script.js"></script> 
+    <title>Exercícios Python</title>
+  
+</head>
+<body>
+	<h1>Exercícios retirados da lista de exercícios do site <a href="https://wiki.python.org.br/EstruturaSequencial" target="_blank">PythonBrasil</a></h1>
+	
+	<!-- Início da div referente ao exercício 1 -->
+    <div class="exercise">
+        <h2>Exercício 01</h2>
+        <p>Faça um Programa que mostre a mensagem "Alo mundo"  na tela.</p>
+        <button class="btn-show-solution" onclick="showSolution('solution1')">Mostrar Solução</button>
+        <div id="solution1" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+print ("Alo mundo ")
+                </code>
+            </pre>
+        </div>
+    </div>
+	
+	<!-- Início da div referente ao exercício 2 -->
+    <div class="exercise">
+        <h2>Exercício 02</h2>
+        <p>Faça um Programa que peca um numero e então mostre a mensagem O número informado foi [numero].</p>
+        <button class="btn-show-solution" onclick="showSolution('solution2')">Mostrar Solução</button>
+        <div id="solution2" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+num=int(input("Digite um numero: "))
+print('o numero digitado foi {}'.format(num))
+				</code>
+            </pre>
+        </div>
+    </div>
+	
+	<!-- Início da div referente ao exercício 3 -->
+	 <div class="exercise">
+        <h2>Exercício 03</h2>
+        <p>Faça um Programa que peça dois números e imprima a soma.</p>
+        <button class="btn-show-solution" onclick="showSolution('solution3')">Mostrar Solução</button>
+        <div id="solution3" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+numero1=int(input('Digite o primeiro número inteiro: \n'))
+numero2=int(input('Digite o segundo número inteiro: \n'))
+print('A soma de {} com {} é: {} \n'.format(numero1,numero2,(numero1+numero2)))
+
+                </code>
+            </pre>
+        </div>
+    </div>
+	
+	<!-- Início da div referente ao exercício 4 -->
+	<div class="exercise">
+        <h2>Exercício 04</h2>
+        <p>Faça um Programa que peça as 4 notas bimestrais e mostre a média.</p>
+        <button class="btn-show-solution" onclick="showSolution('solution4')">Mostrar Solução</button>
+        <div id="solution4" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+nota1=float(input("Digite a primeira nota"))
+nota2=float(input("Digite a segunda nota"))
+nota3=float(input("Digite a terceira nota"))
+nota4=float(input("digite a quarta nota"))
+media=(nota1+nota2+nota3+nota4)/4
+print("A media do aluno e : {}".format(media))
+
+                </code>
+            </pre>
+        </div>
+    </div>
+	
+	<!-- Início da div referente ao exercício 5 -->
+	<div class="exercise">
+        <h2>Exercício 05</h2>
+        <p>Faça um programa que converta metros para centimetros.</p>
+        <button class="btn-show-solution" onclick="showSolution('solution5')">Mostrar Solução</button>
+        <div id="solution5" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+metros = float(input("Digite o valor metrico a ser convertido para centimetros: "))
+centimetros = metros * 100
+print("{} Metros e igual a {} Centimetros".format(metros,centimetros))
+
+                </code>
+            </pre>
+        </div>
+    </div>
+	
+	<!-- Início da div referente ao exercício 6 -->
+	<div class="exercise">
+        <h2>Exercício 06</h2>
+        <p>Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.</p>
+        <button class="btn-show-solution" onclick="showSolution('solution6')">Mostrar Solução</button>
+        <div id="solution6" class="solution">
+            <h3>Solução em Python:</h3>
+            <pre>
+                <code>
+raio = int(input("Digite o valor do raio do círculo: "))
+area = 3.1415 * raio**2
+print("A área do círculo com raio {} é {} ".format(raio,area))
+
+                </code>
+            </pre>
+        </div>
+    </div>
+
+</body>
+</html>
